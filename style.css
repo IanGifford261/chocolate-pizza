@@ -1,0 +1,68 @@
+/*----------------*/
+/*header stuff*/
+/*----------------*/
+
+header {
+    width: 901px;
+    height: 80px;
+    margin: 0px auto;
+    border-bottom: 10px solid grey;
+    margin-bottom: 50px;
+}    
+header img {
+    float: left;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+header nav {
+    float: right;
+    
+}
+
+nav img{
+    margin-right: 2px;
+}
+
+nav img:nth-last-child(2) {
+    margin-left: 5px;
+}
+
+
+h1 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: monospace;
+    font-size: 10px;
+    letter-spacing: 0px;
+    word-spacing: -5px;
+}
+/*----------------*/
+/*main*/
+/*----------------*/
+section{
+    width: 901px;
+    margin: 0px auto;
+}
+
+section div{
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-family: Impact, sans-serif;
+    font-size: 32px;
+}
+
+div h3:first-of-type{
+    float: left;
+}
+div h3:last-of-type{
+    float: right;
+}
+section div img {
+    float: right;
+}
