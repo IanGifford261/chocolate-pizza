@@ -66,3 +66,89 @@ div h3:last-of-type{
 section div img {
     float: right;
 }
+
+section > img:first-of-type {
+    margin-bottom: 30px;
+}
+
+section p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-indent: 30px;
+}
+
+figure {
+    background-image: url(img/list-bg.png);
+    width: 901px;
+    margin: 0px auto;
+    font-family: cursive;
+    font-size: 20px;
+    line-height: 31px
+}
+
+figure ul {
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 50px;
+    margin-top: 38px;
+    margin-bottom: 75px;
+}
+
+/*----------------*/
+/*footer stuff*/
+/*----------------*/
+
+footer{
+    border-top: 10px solid grey;
+    width: 901px;
+    margin: 40px auto 0px;
+}
+
+footer img {
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+footer p:first-of-type {
+    margin-top: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 21px;
+    margin-right: 60px;
+    
+}
+
+footer button {
+    float: right;
+    border: none;
+    padding: 10px 30px;
+    background: rgb(173, 81, 5);
+    color: white;
+    font-size: 15px;
+    transition: 350ms;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+footer div img {
+    display: block;
+    margin:auto;
+    float: none;
+}
+
+footer div{
+    width: 300px;
+    margin: 60px auto;
+}
+
+footer div p{
+    font-size: 10px;
+    font-weight: normal;
+    color: grey;
+    width: 300px;
+    text-align: center;
+}
